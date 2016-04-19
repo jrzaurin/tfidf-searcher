@@ -1,4 +1,4 @@
-## to run: Rscript build_model.r dir
+## to run: Rscript build_model.r dirname
 suppressMessages(require(tm))
 suppressMessages(require(SnowballC))
 
