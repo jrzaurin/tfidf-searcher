@@ -27,7 +27,7 @@ query <- function(q,tfidftdm,k,fixed)
     results <- c()
     for (l in terms.list)
     {    
-
+        # if we should match the query words.
         if (fixed){
             ## find the rows/words in the             
         rows <- which(rownames(tfidftdm) %in% l)

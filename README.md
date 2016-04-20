@@ -35,6 +35,16 @@ For example:
 
 ```
 Rscript query.r "science and religion or technology" 10 "TRUE"
+ 20_newsgroups/soc.religion.christian/20363: 0.228519780325068
+ 20_newsgroups/sci.crypt/16137: 0.167630186912919
+ 20_newsgroups/sci.med/59438: 0.116170590666924
+ 20_newsgroups/misc.forsale/74815: 0.111330149389136
+ 20_newsgroups/rec.motorcycles/104366: 0.105470667842339
+ 20_newsgroups/misc.forsale/76339: 0.104100918909322
+ 20_newsgroups/misc.forsale/76237: 0.102766291743818
+ 20_newsgroups/comp.windows.x/67396: 0.101895390966328
+ 20_newsgroups/sci.space/60881: 0.10146545260782
+ 20_newsgroups/misc.forsale/74720: 0.0977533019026558
 ```
 
 ## What's Next
