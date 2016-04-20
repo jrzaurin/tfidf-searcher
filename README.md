@@ -47,7 +47,7 @@ the headers. Finally, in the documents there is a line such as: "Line: 622" that
 In a preprocessing phase one could use this information to just concentrate on the body. 
 
 Nonetheless, even with a good pre-processing a caveat remains on whether or not tf-idf is a good approach to retrieve
-documents in this and similar cases. If the queries are simply keywords, tf-idf will ultimately on the frequency of 
+documents in this and similar cases. If the queries are simply keywords, tf-idf will ultimately rely on the frequency of 
 the word in a document. Instead, these keywords will usually be associated to topics in and the search should be faced as such. Here I describe some additional strategies to further improve document retrieval given a short query. 
 
 ### Word Vectors to find similar words
